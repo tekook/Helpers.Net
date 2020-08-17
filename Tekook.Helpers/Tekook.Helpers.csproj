@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net45;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Copyright>Julian Tekook 2020</Copyright>
+    <Product>Helpers</Product>
+    <Company>Tekook.dev</Company>
+    <Authors>tekook</Authors>
+    <PackageProjectUrl>https://github.com/tekook/Helpers.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tekook/Helpers.Net.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>helpers, validation, wpf, dotnet</PackageTags>
+    <RootNamespace>Tekook.Helpers</RootNamespace>
+    <AssemblyName>Tekook.Helpers</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </Content>
+    <Content Include="..\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>README.MD</PackagePath>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+</Project>
