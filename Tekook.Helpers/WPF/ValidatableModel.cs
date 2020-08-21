@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace Tekook.Helpers.Validation
+namespace Tekook.Helpers.WPF
 {
     /// <summary>
     /// A validatable Model which can be used by WPF.

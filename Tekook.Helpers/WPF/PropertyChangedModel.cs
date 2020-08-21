@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Tekook.Helpers.Validation
+namespace Tekook.Helpers.WPF
 {
     /// <summary>
     /// A Model which implements <see cref="INotifyPropertyChanged"/> and provides a simple method to fire the event (<see cref="OnPropertyChanged(string)"/>).
